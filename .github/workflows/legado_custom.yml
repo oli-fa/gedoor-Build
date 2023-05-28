@@ -1,6 +1,8 @@
 name: LegadoCustom
 
 on: 
+  watch:
+    types: [started]
   workflow_dispatch:
     inputs: 
       git_url: 
